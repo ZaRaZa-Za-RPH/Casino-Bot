@@ -8,7 +8,7 @@ from aiogram.filters import Command
 
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-WEBAPP_URL = os.getenv("WEBAPP_URL", "https://твой-username.github.io/casino-bot/webapp/index.html")
+WEBAPP_URL = os.getenv("WEBAPP_URL", "https://ZaRaZa_Za_RPH.github.io/casino-bot/webapp/index.html")
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
